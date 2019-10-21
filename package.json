@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-slow-nyc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "1.20.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "nyc": "14.1.1"
+  },
+  "scripts": {
+    "test": "nyc _mocha ./test/*.test.js",
+    "test_mocha": "mocha ./test/*.test.js"
+  }
+}

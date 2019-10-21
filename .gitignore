@@ -1,0 +1,10 @@
+node_modules
+coverage
+.nyc_output
+*.log
+npm-debug.log.*
+*.heapsnapshot
+.DS_Store
+.tags
+doc/api
+package-lock.json
